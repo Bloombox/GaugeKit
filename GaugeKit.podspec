@@ -8,13 +8,13 @@ Pod::Spec.new do |s|
                         - Auto-resized
                         - Support `@IBInspectable` & `@IBDesignable`
                         - Written with vanilla swift flavor :wink:"
-  s.homepage         = "https://github.com/skywinder/GaugeKit"
+  s.homepage         = "https://github.com/bloombox/GaugeKit"
   s.screenshots      = ["https://raw.githubusercontent.com/skywinder/GaugeKit/master/Images/GaugeKit_sreenshot.png",
                         "https://raw.githubusercontent.com/skywinder/GaugeKit/master/Images/SWGauge_example.gif",
                         "https://raw.githubusercontent.com/skywinder/GaugeKit/master/Images/ib_example_1.gif"]
   s.license          = 'MIT'
   s.author           = { "Petr Korolev" => "sky4winder@gmail.com" }
-  s.source           = { :git => "https://github.com/skywinder/GaugeKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/bloombox/GaugeKit.git", :branch => "master" }
   s.social_media_url = 'https://twitter.com/skywinder'
 
   s.ios.deployment_target = '8.0'
